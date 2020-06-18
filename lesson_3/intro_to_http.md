@@ -197,7 +197,7 @@ The server returns this status code when the requested resource cannot be found.
 
 Response headers offer more information about the resource being sent back. Some common response headers are:
 
-| Header Name      | Description                             | Example                                |
+      | Header Name      | Description                             | Example                                |
       | :--------------- | :-------------------------------------- | :------------------------------------- |
       | Content-Encoding | The type of encoding used on the data.  | Content-Encoding: gzip                 |
       | Server           | Name of the server.                     | Server:thin 1.5.0 codename Knife       |
