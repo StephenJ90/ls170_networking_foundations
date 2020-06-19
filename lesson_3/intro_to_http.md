@@ -197,12 +197,12 @@ The server returns this status code when the requested resource cannot be found.
 
 Response headers offer more information about the resource being sent back. Some common response headers are:
 
-      | Header Name      | Description                             | Example                                |
-      | :--------------- | :-------------------------------------- | :------------------------------------- |
-      | Content-Encoding | The type of encoding used on the data.  | Content-Encoding: gzip                 |
-      | Server           | Name of the server.                     | Server:thin 1.5.0 codename Knife       |
-      | Location         | Notify client of new resource location. | Location: https://www.github.com/login |
-      | Content-Type     | The type of data the response contains. | Content-Type:text/html; charset=UTF-8  |
+| Header Name      | Description                             | Example                                |
+|:-----------------|:----------------------------------------|:---------------------------------------|
+| Content-Encoding | The type of encoding used on the data.  | Content-Encoding: gzip                 |
+| Server           | Name of the server.                     | Server:thin 1.5.0 codename Knife       |
+| Location         | Notify client of new resource location. | Location: https://www.github.com/login |
+| Content-Type     | The type of data the response contains. | Content-Type:text/html; charset=UTF-8  |
 
 Just understand that response headers contain additional meta-information about the response data being returned.
 
